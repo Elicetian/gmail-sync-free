@@ -1,0 +1,23 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+lambda.zip
+lambda_build/
+
+# Backend config (contient l'account ID)
+backend.hcl
+
+# Secrets
+credentials.json
+token.json
+
+# Tests
+__pycache__/
+.coverage
+.pytest_cache/
+
+# Claude Code
+.claude/
